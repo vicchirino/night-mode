@@ -1,14 +1,50 @@
-.App {
-  text-align: center;
+
+.App--text-container {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App--link-container {
+  margin-top: 30px;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-evenly;
+  width: 200px;
 }
+
+.App--header-switch {
+  position: fixed !important;
+  right: 50px;
+  top: 35px;
+}
+
+.react-toggle-track-x, .react-toggle-track-check {
+  display: flex;
+  align-items: center;
+  height: 15px;
+  width: 15px;
+  margin: 4px -2px;
+}
+
+.react-toggle:hover .react-toggle-track {
+  background-color: rgb(75, 137, 170) !important;
+}
+
+.react-toggle--checked:hover .react-toggle-track {
+  background-color: gainsboro !important;
+}
+
+.react-toggle-track {
+  background-color: rgb(75, 137, 170);
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+.react-toggle--checked .react-toggle-track {
+  background-color: gainsboro !important;
+  border: 1px solid rgb(242, 211, 40);
+}
+
