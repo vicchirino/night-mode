@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from '@emotion/styled';
 import Toggle from 'react-toggle';
-import { Link } from 'react-router-dom'
 import "react-toggle/style.css";
 import { useTheme } from './ThemeContext';
 import { IoMdMoon, IoMdSunny } from 'react-icons/io';
